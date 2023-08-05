@@ -10,20 +10,18 @@
 main {
   width: 100vw;
   height: 100vh;
-
+  background-color: #111019;
+  color: #E5E3ED;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  gap: 1.5rem;
-
-  background: #111019;
-  color: #E5E3ED;
+  gap: 2rem;
 }
 
 h1 {
   font-size: 3rem;
+
 }
 
 h2 {
@@ -31,34 +29,5 @@ h2 {
 }
 
 p {
-  font-size: 1rem;
-}
-
-select {
-  font-size: 1.5rem;
-  
-  max-width: 80%;
-  margin-top: 1.5rem;
-  padding: 1rem 1.5rem;
-
-  border: .25rem solid #E5E3ED;
-  border-radius: 1rem;
-
-  background: #E5E3ED;
-  color: #111019;
-
-  text-align: center;
-  text-overflow: '';
-  appearance: none;
-
-  transition: .3s;
-  cursor: pointer;
-}
-
-select:hover {
-  box-shadow: 0 0 1rem .25rem rgba(230,230,230,1);
-}
-
-select:active {
-  box-shadow: 0 0 .5rem .125rem rgba(230,230,230,1);
+  font-size: 0.75rem;
 }
